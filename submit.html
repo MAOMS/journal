@@ -134,42 +134,6 @@
         }
 
         $(document).ready(function() {
-            $.getScript('javascript/index-logic.js', function(jd) {});
-            var currentUser = localStorage.getItem("user");
-            if (currentUser == null) {
-                $('#signInBox').dialog({
-                    closeOnEscape: false,
-                    open: function(event, ui) {
-                        $(".ui-dialog-titlebar-close", ui.dialog | ui).hide();
-                    }
-                });
-                $('.signInBox').html('You must have an account to submit a paper.');
-                $('#signInBox').dialog('open');
-                $('#element_2_1').focus();
-            } //end if currentUser
-            //start javascript injectipn prevention
-            $('#form_1039889 :text').change(function() {
-                var inputText = $(this).val();
-                $(this).val($($.parseHTML(inputText)).text());
-            });
-            //end javascript injectipn prevention
-            $('#separateSignIn').position({
-                my: "left top",
-                at: "right+337 top",
-                of: $("#registerFormDiv")
-            });
-            jQuery.validator.addMethod("pdfChecked", function(value, element) {
-                return $('#element_14_1').is(':checked');
-            }, "");
-            jQuery.validator.addMethod("isLong", function(value, element) {
-                var counter = 0;
-                value = value.replace(/(^\s*)|(\s*$)/gi, "");
-                value = value.replace(/[ ]{2,}/gi, " ");
-                value = value.replace(/\n /, "\n");
-                counter = value.split(' ').length;
-                return counter >= 70;
-            }, "");
-
             $('#form_1039889').validate({
                 errorPlacement: function(error, element) {
                     if (element.attr("name") == "element_14") {
