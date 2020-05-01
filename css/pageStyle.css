@@ -1,0 +1,181 @@
+html * {
+    font-family: 'Open Sans', 'Arial';
+}
+
+.bg-primary {
+    color: #fff !important;
+    background-color: #5a5699 !important;
+}
+
+.text-primary {
+    color: #5a5699 !important;
+}
+
+input.error,
+select.error,
+textarea.error {
+    border: 1px solid red !important;
+}
+
+.navigation {
+    width: 98%;
+    margin: auto;
+    margin-top: 8px !important;
+}
+
+.btn.btn-primary {
+    background-color: #5a5699 !important;
+}
+
+
+/*Begin code for button transition*/
+
+.btn,
+.submit-container input {
+    opacity: 1;
+    transition: all 0.3s ease 0s !important;
+}
+
+.btn:hover {
+    opacity: .75;
+}
+
+.submit-container #searchSubmitBut {
+    height: 32px;
+}
+
+.submit-container #searchSubmitBut:hover {
+    background-color: #8380B3 !important;
+}
+
+
+/*End code for button transitions*/
+
+#signInButton {
+    color: #FFFFFF !important;
+}
+
+#saveForm {
+    color: #FFFFFF !important;
+}
+
+.grid {
+    margin-bottom: 14px;
+    -webkit-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 7px 5px -3px rgba(0, 0, 0, 0.57);
+}
+
+.appnitro input {
+    box-sizing: content-box;
+}
+
+.failedSignIn {
+    margin-top: 23px;
+}
+
+#signInBox {
+    display: none;
+}
+
+#incompleteRegister {
+    margin-left: 15px;
+    margin-top: 2px;
+    color: red;
+}
+
+#signInForm {
+    height: 130px;
+}
+
+#signInForm input {
+    box-sizing: content-box;
+}
+
+#logo {
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#indexButton {
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+#registerFormDiv #guide_4 {
+    margin-left: 83px;
+}
+
+#topBar {
+    background-color: gray;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+}
+
+#closeRegister {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#closeFind {
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+#registerComplete {
+    font-size: 14px;
+}
+
+#alerttext {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: black;
+}
+
+#alertDiv a {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+#alertDiv {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contacttext {
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+body {
+    /* background-color: #FFFFFF; */
+    background-image: url("../images/blueBack.jpg");
+    background-size: auto !important;
+}
+
+#footerDiv {
+    background-image: url("../images/blueBack.jpg");
+    background-size: cover;
+}
+
+#indexBody {
+    background-image: url("../images/blueBack.jpg");
+    background-size: cover;
+}
+
+.separator {
+    height: 1px;
+    background: #92948E;
+    overflow: hidden;
+}
+
+.verticalSeparator {
+    width: 1px;
+    background: #92948E;
+    overflow: hidden;
+}

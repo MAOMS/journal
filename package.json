@@ -1,0 +1,56 @@
+{
+  "name": "scicademy",
+  "version": "0.9.0",
+  "description": "Scicademy - Read, Research, Review",
+  "main": "index.js",
+  "engines": {
+    "node": "5.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.23",
+    "body-parser": "latest",
+    "connect-busboy": "0.0.2",
+    "dompurify": "^0.8.2",
+    "express": "^4.13.3",
+    "fs": "latest",
+    "google-caja": "0.0.2",
+    "gridfs-stream": "^1.1.1",
+    "h5bp": "^0.1.4",
+    "http": "latest",
+    "jsdom": "^9.4.1",
+    "mailgun-js": "latest",
+    "mongodb": "latest",
+    "mongojs": "latest",
+    "password-hash": "latest",
+    "path": "^0.12.7",
+    "sanitize-html": "^1.13.0",
+    "send": "latest",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-jsbeautifier": "^0.2.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeshaitan/Scicademy.git"
+  },
+  "author": "Jesse Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeshaitan/Scicademy/issues"
+  },
+  "homepage": "https://github.com/jeshaitan/Scicademy#readme",
+  "keywords": [
+    "science",
+    "research",
+    "high",
+    "school",
+    "undergraduate",
+    "database"
+  ]
+}
