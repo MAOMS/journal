@@ -10,7 +10,7 @@
     "aws-sdk": "^2.2.23",
     "body-parser": "latest",
     "connect-busboy": "0.0.2",
-    "dompurify": "^0.8.2",
+    "dompurify": "^2.0.15",
     "express": "^4.13.3",
     "fs": "latest",
     "google-caja": "0.0.2",
